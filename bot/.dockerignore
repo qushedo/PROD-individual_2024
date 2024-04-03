@@ -1,0 +1,4 @@
+.dockerignore
+bot/Dockerfile
+README.md
+task.md
