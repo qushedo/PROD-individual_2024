@@ -1,4 +1,3 @@
-https://t.me/prod_travelAgent_bot
 
 # Travel Agent 3.0 🌍
 
@@ -11,17 +10,23 @@ https://t.me/prod_travelAgent_bot
 
 1. **Клонирование репозитория**
     ```
-    git clone https://github.com/Central-University-IT-prod/backend-qushedo.git
+    git clone https://github.com/qushedo/PROD-individual_2024.git
     ```
 2. **Переход в директорию проекта**
     ```
-    cd backend-qushedo
+    cd PROD-individual_2024
     ```
-3. **Сборка и запуск docker-compose**
+3. **Установка токена telegram бота в .env**
     ```
+    cd /bot
+    TOKEN="token"
+    ```   
+4. **Сборка и запуск docker-compose**
+    ```
+    cd ..\
     docker-compose up --build
     ```
-4. **В дальнейшем можно запускать через**
+5. **В дальнейшем можно запускать через**
     ```
     docker-compose up
     ```
